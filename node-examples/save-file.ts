@@ -1,4 +1,5 @@
-const fs = require('fs')
+import * as fs from 'fs'
+import * as yargs from 'yargs'
 
 const argv = require('yargs')
             .alias('f', 'filename')
